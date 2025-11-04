@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "open-sans",sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: url('../Image/about\ bck.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #000;
+}
+
+/* ===== HEADER TEXT ===== */
+.header-text h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.header-middle {
+  text-align: center;        
+  margin-top: 100px;          
+  padding: 10px 0;           
+ 
+}
+
+.header-middle h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header-middle h3{
+  color: #333;
+}
+
+
+.header-text h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin: 2px 0;
+  text-decoration: none;
+}
+
+.header-text p {
+  font-style: italic;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ===== LOGO AREA ===== */
+.Logo {
+  text-decoration: none !important;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Logo h1,
+.Logo h4,
+.Logo p {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.navbar .Logo img {
+  width: 80px;
+  height: auto;
+  margin-left: 15px;
+}
+
+/* ===== HEADER / NAVBAR ===== */
+header {
+  position: fixed;           
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;            
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6); 
+  height: 80px;
+  color: white;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  backdrop-filter: blur(6px); 
+}
+
+.navbar .links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.links li a:hover {
+  color: #ffd700;
+}
+
+/* ===== FIX PAGE OVERLAP ===== */
+main,
+.container,
+section {
+  margin-top: 100px; 
+  
+}
+
+/* ===== CONTENT SECTION ===== */
+
+.container p{
+  text-align: justify;
+  margin-right: 400px;
+  margin-left: 30px;
+  margin-top: 200px;
+  font-size: 18px;
+}
+.container img{
+  width: 250px;
+  padding: 0 15px;
+  float: left;
+  margin-left: 300px;
+  justify-content: center;
+  margin-right: 40px;
+}
